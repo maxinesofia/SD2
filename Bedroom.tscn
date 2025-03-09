@@ -1,9 +1,9 @@
 [gd_scene load_steps=43 format=3 uid="uid://rxgw3gst28ka"]
 
-[ext_resource type="Script" uid="uid://dqs171s2s28mg" path="res://bedroom.gd" id="1_w01mu"]
+[ext_resource type="Script" path="res://bedroom.gd" id="1_w01mu"]
 [ext_resource type="Texture2D" uid="uid://b3xl8me01s57n" path="res://Scenes/sddd (7).png" id="2_86ggw"]
 [ext_resource type="Texture2D" uid="uid://cy5hfq3k6441a" path="res://buttons/left.png" id="3_hh831"]
-[ext_resource type="Script" uid="uid://gpj4ulfwsvpa" path="res://back_button.gd" id="4_gtd48"]
+[ext_resource type="Script" path="res://back_button.gd" id="4_gtd48"]
 [ext_resource type="Texture2D" uid="uid://bv3qa518wv35s" path="res://buttons/menu.png" id="5_65dak"]
 [ext_resource type="Texture2D" uid="uid://bp05an8wlvmhb" path="res://buttons/closet.png" id="6_0vv60"]
 [ext_resource type="Texture2D" uid="uid://l161s6707gec" path="res://buttons/bed.png" id="6_acur5"]

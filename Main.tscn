@@ -1,7 +1,7 @@
 [gd_scene load_steps=46 format=3 uid="uid://cncnspw7wigdh"]
 
 [ext_resource type="Texture2D" uid="uid://cp22vy38jvq88" path="res://buttons/sddd (1).png" id="1_57c02"]
-[ext_resource type="Script" uid="uid://dn35ufy7r0oc8" path="res://main.gd" id="1_cehb2"]
+[ext_resource type="Script" path="res://main.gd" id="1_cehb2"]
 [ext_resource type="Texture2D" uid="uid://cy5hfq3k6441a" path="res://buttons/left.png" id="3_nntlp"]
 [ext_resource type="Texture2D" uid="uid://bak0lara0lfgv" path="res://Characters/mr bubbles (1).png" id="4_itk6c"]
 [ext_resource type="Texture2D" uid="uid://bv3qa518wv35s" path="res://buttons/menu.png" id="5_dti1k"]
@@ -127,9 +127,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_20pc6"]
 _data = {
-&"RESET": SubResource("Animation_trn2v"),
-&"speechbubble intro": SubResource("Animation_wkp8b"),
-&"type": SubResource("Animation_03owx")
+"RESET": SubResource("Animation_trn2v"),
+"speechbubble intro": SubResource("Animation_wkp8b"),
+"type": SubResource("Animation_03owx")
 }
 
 [sub_resource type="Animation" id="Animation_5vvyt"]
@@ -165,8 +165,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_c6i3y"]
 _data = {
-&"RESET": SubResource("Animation_5vvyt"),
-&"speechbubble": SubResource("Animation_20pc6")
+"RESET": SubResource("Animation_5vvyt"),
+"speechbubble": SubResource("Animation_20pc6")
 }
 
 [node name="Control" type="Control"]
@@ -275,13 +275,13 @@ visible_ratio = 0.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D"]
 libraries = {
-&"": SubResource("AnimationLibrary_20pc6")
+"": SubResource("AnimationLibrary_20pc6")
 }
 autoplay = "type"
 
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="Sprite2D"]
 libraries = {
-&"": SubResource("AnimationLibrary_c6i3y")
+"": SubResource("AnimationLibrary_c6i3y")
 }
 autoplay = "speechbubble"
 

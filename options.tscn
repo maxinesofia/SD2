@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://bxp85ueupq4yn"]
 
-[ext_resource type="Script" uid="uid://bnp40nsakbb4" path="res://options.gd" id="1_vwrtu"]
+[ext_resource type="Script" path="res://options.gd" id="1_vwrtu"]
 [ext_resource type="Texture2D" uid="uid://bxekh6666texx" path="res://Scenes/Button (2).png" id="1_w2gi2"]
 [ext_resource type="Texture2D" uid="uid://b8aivhqj33ji6" path="res://buttons/dasda__3_-removebg-preview.png" id="3_xv2nq"]
 [ext_resource type="FontFile" uid="uid://cbi24hijt18pf" path="res://font/OilvareBaseRough-Regular.ttf" id="4_yqv4d"]

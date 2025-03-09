@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://7gjp44lq6r7k"]
 
 [ext_resource type="Texture2D" uid="uid://dch7458ewue5k" path="res://Scenes/sddd (9).png" id="1_3x3i2"]
-[ext_resource type="Script" uid="uid://b34ha5x1ylh22" path="res://options_in_bedroom.gd" id="1_vb57k"]
+[ext_resource type="Script" path="res://options_in_bedroom.gd" id="1_vb57k"]
 [ext_resource type="Texture2D" uid="uid://b8aivhqj33ji6" path="res://buttons/dasda__3_-removebg-preview.png" id="2_fow2o"]
 [ext_resource type="FontFile" uid="uid://cbi24hijt18pf" path="res://font/OilvareBaseRough-Regular.ttf" id="3_4haar"]
 

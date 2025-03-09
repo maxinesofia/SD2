@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="heeheheheh"
-run/main_scene="uid://h4qm881r2e1q"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+run/main_scene="res://main_menu.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
